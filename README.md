@@ -1,8 +1,9 @@
 # -SI_2026_lab2_223178
 ## Марта Величковиќ 223178
 ### Control Flow Graph
-searchBookByTitle
-borrowBook
+*searchBookByTitle*
+
+*borrowBook*
 ### Цикломатска комплексност
 Цикломатската комплексност за searchBookByTitle е 4, истата ја добив преку формулата P+1 каде што P е бројот на предикатни јазли. Во случајов P=3 па цикломатската комплексност изнесува 4.
 
@@ -24,8 +25,8 @@ borrowBook
 3: library.searchBookByTitle("Harry Potter")
 
 **Тест случаи според критериумот Every Branch**
-|       | Test 1 | Test 2 | Test 3 | Test 4 |
-|---|---|---|---|
+|   | Test 1 | Test 2 | Test 3 | Test 4 |
+|---|---|---|---|---|
 | Invalid search query | * |  |  |  |
 | Book found |  | * | * |  |
 | Book not borrowed |  | * |  |  |
