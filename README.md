@@ -1,14 +1,14 @@
 # -SI_2026_lab2_223178
-Марта Величковиќ 223178
-# Control Flow Graph
+## Марта Величковиќ 223178
+### Control Flow Graph
 searchBookByTitle
 borrowBook
-# Цикломатска комплексност
+### Цикломатска комплексност
 Цикломатската комплексност за searchBookByTitle е 4, истата ја добив преку формулата P+1 каде што P е бројот на предикатни јазли. Во случајов P=3 па цикломатската комплексност изнесува 4.
 
 Цикломатската комплексност за borrowBook е 5, истата ја добив преку формулата P+1 каде што P е бројот на предикатни јазли. Во случајов P=4 па цикломатската комплексност изнесува 5.
 
-Тест случаи според критериумот Every Statement
+**Тест случаи според критериумот Every Statement**
 |       | Test 1 | Test 2 | Test 3 |
 |---|---|---|---|
 | `title.isEmpty()` | * | * | * |
@@ -23,8 +23,8 @@ borrowBook
 2: library.searchBookByTitle("Clean Code")
 3: library.searchBookByTitle("Harry Potter")
 
-Тест случаи според критериумот Every Branch
-| Test 1 | Test 2 | Test 3 | Test 4 |
+**Тест случаи според критериумот Every Branch**
+|       | Test 1 | Test 2 | Test 3 | Test 4 |
 |---|---|---|---|
 | Invalid search query | * |  |  |  |
 | Book found |  | * | * |  |
@@ -37,19 +37,19 @@ borrowBook
 3: library.borrowBook("Clean Code", "Robert Martin")
 4: library.borrowBook("Unknown", "Unknown")
 
-Тест случаи според критериумот Multiple Condition
-searchBookByTitle
+**Тест случаи според критериумот Multiple Condition**
+*searchBookByTitle*
 Услов: book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed()
-| Комбинација | Test |
+|   | Test |
 |---|---|
 | T T | Book exists and not borrowed |
 | T F | Book exists but borrowed |
 | F T | Different title |
 Минимален број тест случаи e 3.
 
-borrowBook
+*borrowBook*
 Услов: title.isEmpty() || author.isEmpty()
-| Комбинација | Test |
+|   | Test |
 |---|---|
 | T T | `title="" , author=""` |
 | T F | `title="" , author="Robert"` |
