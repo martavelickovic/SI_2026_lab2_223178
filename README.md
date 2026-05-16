@@ -24,6 +24,7 @@
 2: library.searchBookByTitle("Clean Code")
 3: library.searchBookByTitle("Harry Potter")
 
+
 **Тест случаи според критериумот Every Branch**
 |   | Test 1 | Test 2 | Test 3 | Test 4 |
 |---|---|---|---|---|
@@ -40,7 +41,8 @@
 
 **Тест случаи според критериумот Multiple Condition**
 *searchBookByTitle*
-Услов: book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed()
+
+***Услов: book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed()***
 |   | Test |
 |---|---|
 | T T | Book exists and not borrowed |
@@ -49,7 +51,8 @@
 Минимален број тест случаи e 3.
 
 *borrowBook*
-Услов: title.isEmpty() || author.isEmpty()
+
+***Услов: title.isEmpty() || author.isEmpty()***
 |   | Test |
 |---|---|
 | T T | `title="" , author=""` |
