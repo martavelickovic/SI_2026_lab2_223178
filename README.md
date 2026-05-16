@@ -19,6 +19,7 @@
 | `results.isEmpty()` |  | * | * |
 | `return null` |  |  | * |
 | `return results` |  | * |  |
+
 Минимален број на тест случаи за оваа функција според Every Statement критериумот е 3.
 1: library.searchBookByTitle("")
 2: library.searchBookByTitle("Clean Code")
@@ -40,8 +41,8 @@
 4: library.borrowBook("Unknown", "Unknown")
 
 **Тест случаи според критериумот Multiple Condition**
-*searchBookByTitle*
 
+*searchBookByTitle*
 ***Услов: book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed()***
 |   | Test |
 |---|---|
@@ -51,7 +52,6 @@
 Минимален број тест случаи e 3.
 
 *borrowBook*
-
 ***Услов: title.isEmpty() || author.isEmpty()***
 |   | Test |
 |---|---|
