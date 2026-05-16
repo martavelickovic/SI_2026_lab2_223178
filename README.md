@@ -21,8 +21,11 @@
 | `return results` |  | * |  |
 
 Минимален број на тест случаи за оваа функција според Every Statement критериумот е 3.
+
 1: library.searchBookByTitle("")
+
 2: library.searchBookByTitle("Clean Code")
+
 3: library.searchBookByTitle("Harry Potter")
 
 
@@ -34,15 +37,21 @@
 | Book not borrowed |  | * |  |  |
 | Book already borrowed |  |  | * |  |
 | Book not found |  |  |  | * |
+
 Минимален број на тест случаи за оваа функција според Every Branch критериумот е 4.
+
 1: library.borrowBook("", "Robert Martin")
+
 2: library.borrowBook("Clean Code", "Robert Martin")
+
 3: library.borrowBook("Clean Code", "Robert Martin")
+
 4: library.borrowBook("Unknown", "Unknown")
 
 **Тест случаи според критериумот Multiple Condition**
 
 *searchBookByTitle*
+
 ***Услов: book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed()***
 |   | Test |
 |---|---|
@@ -52,6 +61,7 @@
 Минимален број тест случаи e 3.
 
 *borrowBook*
+
 ***Услов: title.isEmpty() || author.isEmpty()***
 |   | Test |
 |---|---|
