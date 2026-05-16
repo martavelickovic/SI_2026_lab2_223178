@@ -1,4 +1,4 @@
-# -SI_2026_lab2_223178
+# Втора лабораториска вежба по Софтверско инженерство
 ## Марта Величковиќ 223178
 ### Control Flow Graph
 *searchBookByTitle*
@@ -9,7 +9,7 @@
 
 Цикломатската комплексност за borrowBook е 5, истата ја добив преку формулата P+1 каде што P е бројот на предикатни јазли. Во случајов P=4 па цикломатската комплексност изнесува 5.
 
-**Тест случаи според критериумот Every Statement**
+### Тест случаи според критериумот Every Statement
 |       | Test 1 | Test 2 | Test 3 |
 |---|---|---|---|
 | `title.isEmpty()` | * | * | * |
@@ -29,7 +29,7 @@
 3: library.searchBookByTitle("Harry Potter")
 
 
-**Тест случаи според критериумот Every Branch**
+### Тест случаи според критериумот Every Branch
 |   | Test 1 | Test 2 | Test 3 | Test 4 |
 |---|---|---|---|---|
 | Invalid search query | * |  |  |  |
@@ -48,7 +48,7 @@
 
 4: library.borrowBook("Unknown", "Unknown")
 
-**Тест случаи според критериумот Multiple Condition**
+### Тест случаи според критериумот Multiple Condition
 
 *searchBookByTitle*
 
@@ -58,6 +58,7 @@
 | T T | Book exists and not borrowed |
 | T F | Book exists but borrowed |
 | F T | Different title |
+
 Минимален број тест случаи e 3.
 
 *borrowBook*
@@ -69,6 +70,7 @@
 | T F | `title="" , author="Robert"` |
 | F T | `title="Clean Code" , author=""` |
 | F F | `title="Clean Code" , author="Robert"` |
+
 Минимален број тест случаи e 4.
 
 
