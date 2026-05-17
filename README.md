@@ -64,9 +64,10 @@
 |---|---|
 | T T | Book exists and not borrowed |
 | T F | Book exists but borrowed |
-| F T | Different title |
+| F T | Different title and available book |
+| F F | Different title and borrowed book |
 
-Минимален број тест случаи e 3.
+Минимален број тест случаи e 4.
 
 *borrowBook*
 
