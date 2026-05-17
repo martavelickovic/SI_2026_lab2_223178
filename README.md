@@ -1,15 +1,18 @@
+
 # Втора лабораториска вежба по Софтверско инженерство
 ## Марта Величковиќ 223178
 ### Control Flow Graph
 *searchBookByTitle*
 
-<img width="516" height="807" alt="Screenshot 2026-05-17 153959" src="https://github.com/user-attachments/assets/d69bd6e0-d6b9-44dd-821c-9ecf9ab36561" />
+<img width="545" height="924" alt="searchBookByTitle drawio" src="https://github.com/user-attachments/assets/f1e55d8d-a054-485a-ad17-4919923f3677" />
+
 
 
 
 *borrowBook*
 
-<img width="582" height="830" alt="Screenshot 2026-05-17 153947" src="https://github.com/user-attachments/assets/b6795499-30a2-4e54-93e2-fcfc87c2d585" />
+<img width="569" height="919" alt="borrowBook drawio" src="https://github.com/user-attachments/assets/22eb5f5a-95df-4b91-8315-1d1764d24355" />
+
 
 ### Цикломатска комплексност
 Цикломатската комплексност за searchBookByTitle е 5, истата ја добив преку формулата P+1 каде што P е бројот на предикатни јазли. Во случајов P=4 па цикломатската комплексност изнесува 5.
